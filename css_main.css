@@ -1,0 +1,168 @@
+  /* Makeshift CSS Reset */  
+    {  
+        margin: 0;  
+        padding: 0;  
+    }  
+      
+    /* Tell the browser to render HTML 5 elements as block */  
+    header, footer, nav, banner, section {  
+        display: block;  
+    }
+      
+    body {  
+        margin: 0 auto;  
+        width: 940px;  
+        font: 13px/22px Helvetica, Arial, sans-serif;  
+        background: #8bc0e2;
+    } 
+	div {
+		display: table;
+		margin: 0 auto;
+		padding: 44px 22px;
+		width: 100%;
+		color: #6c83ad;
+		}
+	
+		div section {
+			display: table-cell;
+			width: 50%;
+            height: 400px;
+		}
+		
+		#message_right {
+			float: left;
+			color: #fff;
+            height: 80%;
+            padding: 5% 0px;
+		}
+
+		#message_left {
+			float: left;
+			color: #fff;
+            height: 75%;
+            padding: 5% 0px;
+		}
+
+    banner {
+        padding: 22px;
+        color: #88a;
+        background: url("clouds.jpg") no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        height: 75px;
+        display: center;
+        vertical-align: middle;
+        border-radius: 11px;  
+        font-size: 300%;
+        text-align: center;
+	}
+
+    h2 {  
+        font-size: 28px;  
+        line-height: 44px;  
+        padding: 22px 0;
+        padding-top: 44px;
+    }  
+      
+    h3 {  
+        font-size: 18px;  
+        line-height: 22px;  
+        padding: 11px 0;  
+    }  
+      
+    p {  
+        padding-bottom: 11px;  
+    }  
+
+/*************************
+NAV
+**************************/      
+    nav {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background: #6ea3d5;
+    }
+
+    nav ul {  
+        margin: 0 auto;  
+        width: 540px;  
+        list-style: none;  
+    }  
+
+    nav ul li {  
+        float: left;  
+    }  
+      
+        nav ul li a {  
+            display: block;  
+            margin-right: 20px;  
+            width: 140px;  
+            font-size: 14px;  
+            line-height: 44px;  
+            text-align: center;  
+            text-decoration: none;  
+            color: #add;
+        }  
+      
+            nav ul li a:hover {  
+                color: #bff;
+            }  
+      
+            nav ul li.selected a {  
+                color: #fff;  
+            }  
+
+
+
+/*------------------------------
+FOOTER
+------------------------------*/
+  footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #6ea3d5;
+	/*background: #591f2d;*/
+   }
+
+	footer div {
+		display: table;
+		margin: 0 auto;
+		padding: 44px 0;
+		width: 740px;
+		color: #fff;
+	}
+	
+		footer div section {
+			display: table-cell;
+			width: 300px;
+		}
+		
+		footer div #about, footer div #contact {
+			padding: 10px 10px;
+		}
+		
+	footer h3 {
+		color: #FFF;
+	}
+	
+	footer a {
+		color: #fff;
+	}
+	
+		footer a:hover {
+			color: #add;
+			text-decoration: none;
+		}
+	
+	footer ul {
+		margin: 0 0 0 40px;
+		list-style: square;
+		color: #565656;
+	}
+	
+		footer ul li a {
+			display: block;
+		}
+
